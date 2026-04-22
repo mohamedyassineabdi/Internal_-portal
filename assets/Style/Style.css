@@ -2576,19 +2576,6 @@ body.home-page .navbar-4.site-header::after {
     bottom: 0;
 }
 
-body.home-page .navbar-4.site-header .header-container::before {
-    content: "";
-    position: absolute;
-    inset: 0.85rem 1.4rem;
-    border: 1px solid rgba(255, 255, 255, 0.06);
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0.015) 0%, rgba(255, 255, 255, 0.035) 50%, rgba(255, 255, 255, 0.015) 100%);
-    clip-path: polygon(1.25rem 0, calc(100% - 1.25rem) 0, 100% 1.25rem, 100% calc(100% - 1.25rem), calc(100% - 1.25rem) 100%, 1.25rem 100%, 0 calc(100% - 1.25rem), 0 1.25rem);
-    box-shadow:
-        inset 0 0 26px rgba(108, 44, 181, 0.12),
-        inset 0 0 50px rgba(0, 171, 214, 0.04);
-    pointer-events: none;
-}
-
 body.home-page .header-container {
     justify-content: flex-start !important;
     min-height: 5.9rem;
@@ -2628,9 +2615,6 @@ body.home-page .header-side-part.hsp--left {
         padding-right: 0.55rem;
     }
 
-    body.home-page .navbar-4.site-header .header-container::before {
-        inset: 0.7rem 0.8rem;
-    }
 }
 
 body.home-page .nav-menu-2,
